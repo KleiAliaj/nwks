@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <!-- META -->
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="format-detection" content="telephone=no">
+        <!-- FAVICONS ICON -->
+        <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>
+        <!-- PAGE TITLE HERE -->
+        <title>Juan Esteban Gallo Mejía - Quien soy</title>
+        <!-- MOBILE SPECIFIC -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <!--[if lt IE 9]>
+	<script src="js/html5shiv.min.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+  <!-- STYLESHEETS -->
+	<link rel="stylesheet" type="text/css" href="css/plugins.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/templete.css">
+	<link rel="stylesheet" type="text/css" class="skin" href="css/skin/skin-2.css">
+	<link href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Rajdhani:300,400,500,600,700&display=swap');
+	</style>
+  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e6c129f84c12600134a41a9&product=inline-share-buttons' async='async'></script>
+    </head>
+    <body>
+        <div class="page-wraper">
+            <!-- header -->
+            <header class="site-header header-transparent header2">
+                <!-- main header -->
+                <div class="sticky-header main-bar-wraper navbar-expand-xl">
+                    <div class="main-bar clearfix">
+                        <div class="container-fluid clearfix">
+                            <!-- website logo -->
+                            <div class="logo-header">
+        						                <a href="index.html"><img src="images/logo-black-2.png" alt=""></a>
+        					          </div>
+                            <!-- extra nav -->
+                            <div class="extra-nav">
+                              <div class="extra-cell">
+                                  <ul>
+                                    <li>
+                                          <a href="javascript:void(0);" class="menu-btn active"><span>Menu</span><div class="menu"><span></span><span></span><span></span></div></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <!-- main nav -->
+                          <div class="header-nav icon-menu active">
+                            <ul class="nav navbar-nav">
+                              <li><a href="index.html"><img src="images/home_black.png"  width="45px;" /></a></li>
+                              <li ><a href="about.html"><img src="images/bio_black.png" width="45px;"/></a></li>
+                              <li class="active"><a href="video.html"><img src="images/video_white.png" width="45px;"/></a></li>
+
+                              <li><a href="contact.html"><img src="images/contact_black.png" width="45px;"/></a></li>
+                          </ul>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- main header END -->
+            </header>
+            <!-- header END -->
+            <div class="dlab-bnr-inr text-center" data-content="About me">
+                <div class="container">
+                    <div class="dlab-bnr-inr-entry align-m text-center">
+                        <h1 class="text-white">quien soy</h1>
+                        <!-- Breadcrumb row -->
+                        <div class="breadcrumb-row">
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>quien soy</li>
+                            </ul>
+                        </div>
+                        <!-- Breadcrumb row END -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-body">
+                <div class="content-body-inner">
+                    <!-- About Image -->
+					<p class="fnt" style="text-align: center;
+                    font-size:32px; 
+                   font-weight:600">Guarda il video sino in fondo!<br><hr style="border:solid; border-width: 0.25px;"></p>
+
+                    <!-- About Info -->
+                    <div class="section-full content-inner-1 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+
+
+    <iframe id="player" width="100%" height="450px" src="https://player.vimeo.com/video/406825693?byline=0&portrait=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br><hr style="border:solid; border-width: 0.25px;">
+    <p class="fnt">Copyright 2020 Neworkom International Ltd. Building SCM001, Level 5, Smartcity Malta, Ricasoli, Kalkara SCM 1001, MALTA</p>
+    <p id="message"></p>
+
+			</div>
+    </div>
+  </div>
+
+        </div>
+        
+    
+        <!-- JavaScript  files ========================================= -->
+        <script src="js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
+        <script src="plugins/bootstrap/js/popper.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+        <script src="plugins/bootstrap/js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+        <script src="plugins/owl-carousel/owl.carousel.js"></script><!-- LIGHTGALLERY -->
+        <script src="js/dz.carousel.js"></script><!-- LIGHTGALLERY -->
+        <script src="js/wow.js"></script><!-- WOW JS -->
+        <script src="js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
+        <script type="text/javascript">
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScript = document.getElementsByTagName('script')[0];
+        firstScript.parentNode.insertBefore(tag, firstScript);
+        function onYouTubeIframeAPIReady() {
+            new YT.Player('player', {
+                events: {
+                    'onStateChange': function(evt) {
+                        if (evt.data === YT.PlayerState.ENDED) {
+                            document.getElementById('message').innerHTML = "<h2>Contatta chi ti ha inviato questo video e chiedi maggiori informazioni.<br><br>Neworkom migliorerà la vita anche a te..</h2>";
+
+                        }
+                     }
+                 }
+            });
+        }
+    </script>
+
+    </body>
+</html>
